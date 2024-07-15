@@ -198,6 +198,8 @@ Secondary Color (Orange): #e0b354;
     .grid {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+      display: inline-block;
+      margin: 10px 0;
     }
   }
   @media all and (min-width: 500px) and (max-width: 750px){
