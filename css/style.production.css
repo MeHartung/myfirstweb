@@ -60,7 +60,8 @@ h3 {
 }
 
 main {
-  text-align: center;
+  text-align: left;
+  /* Убираем центровку для основного текста */
   margin: 40px auto;
   max-width: 800px;
 }
@@ -195,7 +196,8 @@ td {
 }
 
 .project-screenshot {
-  max-width: 80%;
+  max-width: 90%;
+  /* Увеличиваем ширину до 90% */
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
