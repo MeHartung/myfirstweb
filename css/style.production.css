@@ -517,3 +517,21 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+.project-screenshot-container {
+  display: flex;
+  gap: 10px;
+  /* Расстояние между изображениями */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project-screenshot {
+  max-width: 45%;
+  /* Уменьшает ширину изображений */
+  height: auto;
+  border: 1px solid #ddd;
+  /* Добавляет рамку для красоты */
+  border-radius: 5px;
+  /* Немного скругляет края */
+}
