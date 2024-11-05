@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myFlix API - Project Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="img/logo.PNG" alt="logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>myFlix API - Project Details</h1>
+        <div class="project-details">
+            <h2>Project Description</h2>
+            <p>
+                myFlix API is a backend service created to support the movie-based web application “myFlix.” It offers
+                server-side logic, including a RESTful API for managing movies, users, genres, and directors. The API
+                enables secure user registration, profile management, and data retrieval.
+            </p>
+            <h3>Links</h3>
+            <p>
+                <strong>Hosted Version:</strong>
+                <a href="https://movies-flix-hartung-46febebee5c5.herokuapp.com">myFlix API</a>
+            </p>
+            <p>
+                <strong>GitHub Repository:</strong>
+                <a href="https://github.com/MeHartung/movie_api">myFlix API GitHub Repository</a>
+            </p>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Node.js & Express: For server and API development</li>
+                <li>MongoDB & Mongoose: For persistent data storage and modeling</li>
+                <li>JWT Authentication: For secure user sessions</li>
+                <li>Express-validator & bcrypt: For data validation and password security</li>
+                <li>Deployment: Hosted on Heroku</li>
+                <li>JSDoc: For generating HTML documentation of the API</li>
+            </ul>
+
+            <h3>Key Materials</h3>
+            <ul>
+                <li><strong>User Stories and Kanban Board:</strong> Used to manage user stories and track features like
+                    movie management, user authentication, and profile management.</li>
+                <li><strong>API Documentation:</strong> Created using JSDoc, outlining all available endpoints,
+                    parameters, and responses.</li>
+            </ul>
+
+            <h3>Project Highlights</h3>
+            <ul>
+                <li><strong>Movie Management:</strong> Retrieve movie lists, details, genres, and directors.</li>
+                <li><strong>User Management:</strong> Allows users to register, update profiles, and manage favorite
+                    movies.</li>
+                <li><strong>Secure Authentication:</strong> User sessions are secured with JSON Web Tokens, ensuring
+                    safe access and data protection.</li>
+            </ul>
+
+            <h3>Screenshot</h3>
+            <img src="img/project-details2.png" alt="Screenshot of myFlix API" class="project-screenshot">
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="img/github_logo.svg" alt="Github">
+            <img src="img/x_logo.svg" alt="X">
+            <img src="img/linkedin_logo.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>

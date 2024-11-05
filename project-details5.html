@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App with React Native - Project Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="img/logo.PNG" alt="logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Chat App with React Native - Project Details</h1>
+        <div class="project-details">
+            <h2>Project Description</h2>
+            <p>
+                A mobile chat application that allows users to enter their name, choose a background color for the chat
+                screen, and participate in a conversation. Built with React Native and Expo, this app supports text,
+                image, and location sharing, offering a versatile cross-platform experience on both iOS and Android.
+            </p>
+
+            <h3>Links</h3>
+            <p>
+                <strong>GitHub Repository:</strong>
+                <a href="https://github.com/MeHartung/chat-app">Chat App GitHub Repository</a>
+            </p>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>React Native: Framework for building the mobile application</li>
+                <li>Expo: For simplifying the development and testing process</li>
+                <li>Firebase Firestore: Database for real-time message storage</li>
+                <li>Firebase Storage: For storing images shared in the chat</li>
+                <li>React Native Gifted Chat: Customizable chat UI component</li>
+                <li>AsyncStorage: For offline message storage</li>
+                <li>Expo ImagePicker & Expo Location: For sharing images and location in the chat</li>
+            </ul>
+
+            <h3>Additional Project Materials</h3>
+            <ul>
+                <li><strong>Firebase Configuration Guide:</strong> Contains step-by-step instructions for setting up
+                    Firestore and Storage for this project</li>
+                <li><strong>User Stories & Kanban Board:</strong> Used to define key user needs, such as joining a chat
+                    and sharing media. The Kanban board helped prioritize tasks and track progress</li>
+            </ul>
+
+            <h3>Project Highlights</h3>
+            <ul>
+                <li>Anonymous Sign-In: Users can join a chat without creating an account using Firebase’s anonymous
+                    authentication</li>
+                <li>Offline Capability: Messages are stored locally if the device is offline and synced upon
+                    reconnection</li>
+                <li>Cross-Platform Compatibility: Provides a seamless experience across both iOS and Android devices
+                </li>
+            </ul>
+
+            <h3>Setup Instructions</h3>
+            <ol>
+                <li><strong>Prerequisites:</strong> Make sure Node.js (v16.19.0 or newer), Expo CLI, and Android Studio
+                    or Xcode are installed.</li>
+                <li><strong>Installation:</strong>
+                    <ul>
+                        <li>Clone the repository and navigate to the project directory.</li>
+                        <li>Install dependencies with <code>npm install</code>.</li>
+                        <li>Install Expo libraries for image and location sharing:
+                            <code>expo install expo-image-picker expo-location firebase</code>.
+                        </li>
+                        <li>Start the project: <code>npm start</code>.</li>
+                        <li>Test on an emulator or scan the QR code with Expo Go on a mobile device.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Testing</h3>
+            <ul>
+                <li><strong>Preview:</strong> Use Expo Go on a mobile device to view the app in real time.</li>
+                <li><strong>Emulators:</strong> Test on Android using Android Studio or on iOS using Xcode.</li>
+            </ul>
+
+            <h3>Screenshots</h3>
+            <img src="img/project-details5.png" alt="Screenshot of Chat App" class="project-screenshot">
+            <img src="img/project-details5.1.png" alt="Screenshot of Chat App" class="project-screenshot">
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="img/github_logo.svg" alt="Github">
+            <img src="img/x_logo.svg" alt="X">
+            <img src="img/linkedin_logo.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
