@@ -1,6 +1,4 @@
-/*
-* Основные настройки
-*/
+/* Основные настройки */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -53,33 +51,33 @@ button:focus,
 /* Основные настройки шрифтов для заголовков */
 h1 {
   font-size: 2.5em;
-  /* Размер для h1 */
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 2em;
-  /* Размер для h2 */
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
+  line-height: 1.3;
 }
 
 h3 {
   font-size: 1.75em;
-  /* Размер для h3 */
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
+  line-height: 1.3;
 }
 
 main {
   text-align: left;
-  /* Убираем центровку для основного текста */
   margin: 40px auto;
   max-width: 800px;
+  margin-bottom: 40px;
 }
 
 /* Стиль для профиля */
@@ -87,7 +85,6 @@ main {
   max-width: 700px;
   margin: 0 auto;
   overflow: hidden;
-  /* Добавляем для предотвращения переполнения при обтекании */
 }
 
 .profile__portrait {
@@ -95,13 +92,12 @@ main {
   margin-right: 20px;
   border-radius: 50%;
   float: left;
-  /* Позволяет тексту обтекать изображение справа */
 }
 
 .profile p {
   text-align: left;
   margin: 10px 0;
-  /* Добавляем отступы для разделения параграфов */
+  line-height: 1.6;
 }
 
 .profile__text {
@@ -208,7 +204,7 @@ td {
   }
 
   h1 {
-    font-size: 16px;
+    font-size: 1.5em;
   }
 }
 
@@ -223,7 +219,6 @@ td {
 
 .project-screenshot {
   max-width: 90%;
-  /* Увеличиваем ширину до 90% */
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
